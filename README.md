@@ -51,7 +51,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentangdatabas
   
   ![image](https://user-images.githubusercontent.com/101801920/171386792-e0f39182-2308-404d-b469-4dfdf75442be.png)
 
-3). Kemudian buat file baru dengan nama index_header dan index_footer
+3). Kemudian buat file baru dengan nama index_header dan index_footer yang di ambil dari file bagian atas dan bawah index.php
   
   <b>Index_header</b>
   
@@ -61,7 +61,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentangdatabas
   
   ![image](https://user-images.githubusercontent.com/101801920/171392185-488ac108-ce20-4655-8ded-b53d559b6b00.png)
 
- 4).Kemudian buat file baru dengan nama tambah_header dan tambah_footer
+ 4).Kemudian buat file baru dengan nama tambah_header dan tambah_footer yang di ambil dari file bagian atas dan bawah tambah.php
   
   <b>tambah_header</b>
   
@@ -73,19 +73,50 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentangdatabas
   
   ![image](https://user-images.githubusercontent.com/101801920/171394084-1ef211af-3807-4c4f-b3c2-a5a1e14424e5.png)
   
-  5).Kemudian buat file baru dengan nama ubah_header dan ubah_footer
+  5).Kemudian buat file baru dengan nama ubah_header dan ubah_footer yang di ambil dari file bagian atas dan bawah ubah.php
   
   <b>ubah_header</b>
   
-  ![image](https://user-images.githubusercontent.com/101801920/171394578-f9c8410d-0671-4554-98a0-56ee258666a6.png)
+  ![image](https://user-images.githubusercontent.com/101801920/171413584-87c80fb8-8b18-4c8b-9516-35e242ab04cc.png)
 
-  ![image](https://user-images.githubusercontent.com/101801920/171394686-999d81b9-187d-496d-acce-5369ce9dbd58.png)
-
+  ![image](https://user-images.githubusercontent.com/101801920/171413744-a9924de6-1309-46e1-9631-6e57763bc861.png)
+  
   <b>ubah_footer</b>
 
-![image](https://user-images.githubusercontent.com/101801920/171394885-1ad9aacc-f601-46a4-ac49-07f9e7060122.png)
+  ![image](https://user-images.githubusercontent.com/101801920/171394885-1ad9aacc-f601-46a4-ac49-07f9e7060122.png)
 
+  6). Buat file index.php, kita ambil bagian body atau content dari index.php pada praktikum 8, dan kemudian tambahkan syntax <b> <?php require('index_header.php'); ?>
   
+  </b> pada bagian atas body dan pada bagian bawah body di tambahkan syntax <b> <?php require('index_footer.php'); ?> <b/>
+  
+  ![image](https://user-images.githubusercontent.com/101801920/171407600-7db3a796-e283-414d-95a7-3a87cc577ade.png)
 
+  ![image](https://user-images.githubusercontent.com/101801920/171407697-94f9babf-1228-494b-b282-ebbf48825a3e.png)
   
+  <b>tampilan pada browser</b>
   
+  ![image](https://user-images.githubusercontent.com/101801920/171415999-338a9dad-00e7-4f06-ae5f-19b8ea0cddf2.png)
+
+  7). Buat file tambah.php, kita ambil bagian body atau content dari tambah.php pada praktikum 8, dan kemudian tambahkan syntax <b> <?php require('tambah_header.php'); 
+
+  ?> </b> pada bagian atas body dan pada bagian bawah body di tambahkan syntax <b> <?php require('tambah_footer.php'); ?> <b/>
+  
+  ![image](https://user-images.githubusercontent.com/101801920/171408629-f3c672d3-a3b9-4037-91c6-a52104b8b6d7.png)
+
+  ![image](https://user-images.githubusercontent.com/101801920/171408859-b0d0a4f9-c6b9-4e16-8063-4dea512d101c.png)
+
+   <b>tampilan pada browser</b>
+  
+  ![image](https://user-images.githubusercontent.com/101801920/171416298-f43f8577-37ab-420c-bdcc-f4a1b7dafef1.png)
+
+  8). Buat file ubah.php, kita ambil bagian body atau content dari ubah.php pada praktikum 8, dan kemudian tambahkan syntax <b> <?php require('ubah_header.php'); 
+
+  ?> </b> pada bagian atas body dan pada bagian bawah body di tambahkan syntax <b> <?php require('ubah_footer.php'); ?> <b/>
+
+   ![image](https://user-images.githubusercontent.com/101801920/171414034-644f9934-9271-45fe-a666-63f8008107ba.png)
+
+  ![image](https://user-images.githubusercontent.com/101801920/171414632-8627a05f-f1e0-4d72-b867-2054c45767c3.png)
+  
+  <b>tampilan pada browser</b>
+  
+  ![image](https://user-images.githubusercontent.com/101801920/171416567-2c422331-442f-4393-a906-51b6bae3d576.png)
